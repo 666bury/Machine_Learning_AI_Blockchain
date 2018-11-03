@@ -1,0 +1,3 @@
+In this course, you will learn how to build a logistic regression model with meaningful variables. 
+You will also learn how to use this model to make predictions and how to present it and its performance to business stakeholders.
+

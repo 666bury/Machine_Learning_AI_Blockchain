@@ -1,0 +1,1 @@
+In this Chapter, you'll learn the basics of logistic regression: how can you predict a binary target with continuous variables and, how should you interpret this model and use it to make predictions for new examples?
