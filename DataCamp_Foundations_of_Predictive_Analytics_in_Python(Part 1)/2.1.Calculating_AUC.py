@@ -1,0 +1,28 @@
+'''The AUC value assesses how well a model can order observations from low probability to be target to high probability to be target. 
+In Python, the roc_auc_score function can be used to calculate the AUC of the model. 
+It takes the true values of the target and the predictions as arguments.
+
+You will make predictions again, before calculating its roc_auc_score.'''
+#TASK
+# The model logreg from the last chapter has been created and fitted for you, the dataframe X contains the predictor columns of the basetable. Make predictions for the objects in the basetable.
+# Select the second column of predictions, as it contains the predictions for the target.
+# The true values of the target are loaded in y. Use the roc_auc_score function to calculate the AUC of the model
+
+# Make predictions
+predictions = logreg.____(____)
+predictions_target = predictions[:,____]
+
+# Calculate the AUC value
+auc = ____(____, ____)
+print(round(auc,2))
+
+
+
+#SOLUTION
+# Make predictions
+predictions = logreg.predict_proba(X)
+predictions_target = predictions[:,1]
+
+# Calculate the AUC value
+auc = roc_auc_score(y, predictions_target)
+print(round(auc,2))
