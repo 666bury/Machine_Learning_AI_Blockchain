@@ -1,0 +1,2 @@
+Now that you know how to build a good model, you should convince stakeholders to use it by creating appropriate graphs. 
+You will learn how to construct and interpret the cumulative gains curve and lift graph.
