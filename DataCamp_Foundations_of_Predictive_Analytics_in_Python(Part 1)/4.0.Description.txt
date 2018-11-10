@@ -1,0 +1,4 @@
+In a business context, it is often important to explain the intuition behind the model you built. 
+Indeed, if the model and its variables do not make sense, the model might not be used. 
+In this chapter you'll learn how to explain the relationship between the variables in the model and the target by means of predictor insight graphs.
+
