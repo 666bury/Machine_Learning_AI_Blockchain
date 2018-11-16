@@ -1,0 +1,2 @@
+This chapter goes over a few different techniques for selecting the most important features from your dataset. 
+You'll learn how to drop redundant features, work with text vectors, and reduce the number of features in your dataset using principal component analysis (PCA).
