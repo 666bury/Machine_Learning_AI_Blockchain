@@ -1,0 +1,5 @@
+We start the course with an initial exploration of linear relationships, 
+including some motivating examples of how linear models are used, 
+and demonstrations of data visualization methods from matplotlib. 
+We then use descriptive statistics to quantify the shape of our data and use correlation to quantify the strength of linear relationships between two variables.
+
